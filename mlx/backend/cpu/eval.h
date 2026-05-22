@@ -7,6 +7,8 @@
 
 namespace mlx::core::cpu {
 
+void new_stream(Stream s);
+void new_thread_unsafe_stream(Stream s);
 void eval(array& arr);
 
 } // namespace mlx::core::cpu
