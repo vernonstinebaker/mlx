@@ -2,6 +2,8 @@
 
 #include "mlx/backend/cpu/encoder.h"
 
+#include <fmt/format.h>
+
 namespace mlx::core::cpu {
 
 CommandEncoder& get_command_encoder(Stream s) {

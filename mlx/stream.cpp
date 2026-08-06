@@ -2,6 +2,7 @@
 
 #include "mlx/stream.h"
 #include "mlx/backend/cpu/device_info.h"
+#include "mlx/backend/cpu/eval.h"
 #include "mlx/backend/gpu/device_info.h"
 #include "mlx/backend/gpu/eval.h"
 
